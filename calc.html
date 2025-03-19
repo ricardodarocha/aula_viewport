@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="container">
+        <section class="viseira">3.141595</section>
+        <button class="num">9</button>
+        <button class="num">8</button>
+        <button class="num">7</button>
+        <button class="num">÷</button>
+        <button class="num">6</button>
+        <button class="num">5</button>
+        <button class="num">4</button>
+        <button class="num">×</button>
+        <button class="num">3</button>
+        <button class="num">2</button>
+        <button class="num">1</button>
+        <button class="num">−</button>
+        <button class="num">0</button>
+        <button class="igual">=</button>
+        <button class="num">+</button>
+
+      
+       
+    </section>
+
+</body>
+
+<style>
+    *{
+        background-color: yellowgreen;
+    }
+
+    body{
+        
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+        /* alinhamento vertical */
+        align-items: center; 
+    }
+
+    section{
+        border: solid 3px;
+    }
+
+    .num {
+        height: 10vh;
+        width: 10vh;
+        font-size: 20px;
+    }
+
+
+    button {
+        background-color: aqua;
+    }
+
+    .igual {
+        width: 20vh;
+        
+        height: 10vh;
+    }
+
+    #container{
+        background-color: rgb(192, 59, 202); 
+        padding: 10px;
+        display: flex;
+        height: 50vh;
+        width: 50vh;
+        gap: 3px;
+        flex-wrap: wrap;
+
+        /* alinhamento horizontal */
+        /* justify-content: space-between; */
+        justify-content: center;
+
+        /* alinhamento vertical */
+        align-items: center; 
+    }
+    .viseira{
+        background-color: rgb(213, 213, 241); 
+        width: 80%;
+        height: 10vh;
+        
+        font-size: 20px;
+    }
+</style>
+
+</html>
